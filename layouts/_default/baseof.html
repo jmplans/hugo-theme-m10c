@@ -43,6 +43,9 @@
         {{ end }}
       </div>
       {{- end }}
+
+      {{ template "partials/footer.html"}}
+      
     </header>
     <main class="app-container">
       {{ block "main" . }}
